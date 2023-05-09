@@ -1,0 +1,122 @@
+#Alpha
+Alpha=input("are you ready in looping y/n :")
+while(Alpha=="y" or Alpha=="yes"):
+  a=int(input('enter starting number'))
+  b=int(input('enter ending number'))
+  c=int(input('enter step number'))
+  for i in range(a,b,c):
+    print(i)
+  else:
+    print("Loop ended!!!")
+  Alpha=input("You want to continue")
+else:
+  print("Thankyou")
+  
+  
+#Output:
+are you ready in looping y/n :y
+enter starting number4500
+enter ending number4700
+enter step number5
+4500
+4505
+4510
+4515
+4520
+4525
+4530
+4535
+4540
+4545
+4550
+4555
+4560
+4565
+4570
+4575
+4580
+4585
+4590
+4595
+4600
+4605
+4610
+4615
+4620
+4625
+4630
+4635
+4640
+4645
+4650
+4655
+4660
+4665
+4670
+4675
+4680
+4685
+4690
+4695
+Loop ended!!!
+You want to continuey
+enter starting number800
+enter ending number1000
+enter step number7
+800
+807
+814
+821
+828
+835
+842
+849
+856
+863
+870
+877
+884
+891
+898
+905
+912
+919
+926
+933
+940
+947
+954
+961
+968
+975
+982
+989
+996
+Loop ended!!!
+You want to continuey
+enter starting number50
+enter ending number10
+enter step number-2
+50
+48
+46
+44
+42
+40
+38
+36
+34
+32
+30
+28
+26
+24
+22
+20
+18
+16
+14
+12
+Loop ended!!!
+You want to continuen
+Thankyou
