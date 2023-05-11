@@ -9,6 +9,7 @@ if(Internal_mark<=20 and Internal_mark>=12):
 else:
  print("internal fail")
  
+ 
 #Output:(1)
 Enter internal mark out of 20:19
 Enter external mark out of 80:70
